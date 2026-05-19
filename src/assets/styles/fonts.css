@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Voyage";
+  src: url("../fonts/voyage-regular.woff2") format("woff2"),
+       url("../fonts/voyage-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Voyage";
+  src: url("../fonts/voyage-bold.woff2") format("woff2"),
+       url("../fonts/voyage-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Foda";
+  src: url("../fonts/foda.woff2") format("woff2"),
+       url("../fonts/foda.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Zarid";
+  src: url("../fonts/29LT\ Zarid\ Display\ Regular.woff2") format("woff2"),
+       url("../fonts/29LT\ Zarid\ Display\ Regular.woff2.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Maison Neue";
+  src: url("../fonts/Maison_Neue_Bold.woff2") format("woff2"),
+       url("../fonts/Maison_Neue_Bold.woff2.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Maison Neue";
+  src: url("../fonts/Maison_Neue_Book.woff2") format("woff2"),
+       url("../fonts/Maison_Neue_Book.woff2.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

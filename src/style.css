@@ -1,9 +1,3 @@
-@font-face {
-  font-family: "";
-  src: url("");
-  font-weight: 400;
-
-}
 
 :root {
   --text: #6b6375;
@@ -52,9 +46,9 @@
       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
   }
 
-  #social .button-icon {
+  /* #social .button-icon {
     filter: invert(1) brightness(2);
-  }
+  } */
 }
 
 *, *::before, *::after {
@@ -75,6 +69,8 @@ body {
   height: 100vh;
   width: 100%;
   color: var(--text);
+  font-family: "Zarid", serif;
+
 }
 
 ul {
@@ -116,8 +112,20 @@ nav ul{
   justify-content: space-between;
   align-items: center;
   gap: 1.2em;
-  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-size: clamp(1.4rem, 2vw, 1.65rem);
   color: var(--text-h);
+}
+
+.title {
+  font-family: "Voyage", serif;
+  font-weight: 400;
+  font-size: clamp(3.5rem, 6vw, 6rem);
+}
+.span-title {
+  margin-top: 0.5em;
+  margin-left: 0.8em;
+  display: block;
+  font-weight: 700;
 }
  
 
@@ -137,6 +145,11 @@ nav ul{
     align-items: flex-end;
     border: 1px solid blue;
   }
+  .title {
+  font-family: "Voyage", serif;
+  font-weight: 400;
+  font-size: 5rem;
+}
   
 }
 
